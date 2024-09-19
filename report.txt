@@ -1,0 +1,3 @@
+The student registration system consists of two main pages: one for login and another for student registration. The login page validates that the username and password fields are completed before redirecting the user to the registration page. On the registration page, users can register new students, view a table of registered students, and delete records.
+
+Several challenges were faced, including ensuring that the entered data is valid, managing sessions without a backend, and updating the interface in real-time without reloading the page. Solutions included field validations, using sessionStorage to maintain authentication state, and JavaScript techniques for dynamic content updates. The system is fully functional.
